@@ -5,7 +5,7 @@
 
 defined( 'ABSPATH' ) || exit;
 
-define( 'GD_THEME_VERSION', '1.2.1' );
+define( 'GD_THEME_VERSION', '1.2.2' );
 define( 'GD_THEME_DIR', get_template_directory() );
 define( 'GD_THEME_URI', get_template_directory_uri() );
 
