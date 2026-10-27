@@ -1,0 +1,66 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 3,
+	"settings": {
+		"appearanceTools": true,
+		"layout": { "contentSize": "760px", "wideSize": "1140px" },
+		"color": {
+			"defaultPalette": false,
+			"defaultGradients": false,
+			"palette": [
+				{ "slug": "ink",        "name": "Ink",           "color": "#0f1e38" },
+				{ "slug": "muted",      "name": "Muted",         "color": "#4a5260" },
+				{ "slug": "paper",      "name": "Paper",         "color": "#f7f6f1" },
+				{ "slug": "sand",       "name": "Sand",          "color": "#e8dcc4" },
+				{ "slug": "white",      "name": "White",         "color": "#ffffff" },
+				{ "slug": "terracotta", "name": "Pantry red",    "color": "#d32f2a" },
+				{ "slug": "glacier",    "name": "Highlighter",   "color": "#f5d33f" },
+				{ "slug": "pine",       "name": "Flyer navy",    "color": "#0f1e38" }
+			]
+		},
+		"typography": {
+			"defaultFontSizes": false,
+			"fluid": true,
+			"fontFamilies": [
+				{ "slug": "display", "name": "IBM Plex Sans (display)", "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif" },
+				{ "slug": "body",    "name": "IBM Plex Sans (body)", "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif" }
+			],
+			"fontSizes": [
+				{ "slug": "small",  "name": "Small",  "size": "0.9rem" },
+				{ "slug": "medium", "name": "Medium", "size": "1.05rem" },
+				{ "slug": "large",  "name": "Large",  "size": "1.35rem",  "fluid": { "min": "1.15rem", "max": "1.35rem" } },
+				{ "slug": "x-large","name": "XL",     "size": "2rem",     "fluid": { "min": "1.6rem",  "max": "2.25rem" } },
+				{ "slug": "xx-large","name": "XXL",   "size": "3rem",     "fluid": { "min": "2.1rem",  "max": "3.5rem" } }
+			]
+		},
+		"spacing": {
+			"units": [ "px", "rem", "%", "vh" ],
+			"spacingSizes": [
+				{ "slug": "20", "name": "1", "size": "0.5rem" },
+				{ "slug": "30", "name": "2", "size": "1rem" },
+				{ "slug": "40", "name": "3", "size": "1.5rem" },
+				{ "slug": "50", "name": "4", "size": "2.5rem" },
+				{ "slug": "60", "name": "5", "size": "4rem" },
+				{ "slug": "70", "name": "6", "size": "6rem" }
+			]
+		}
+	},
+	"styles": {
+		"color": { "background": "var(--wp--preset--color--paper)", "text": "var(--wp--preset--color--ink)" },
+		"typography": { "fontFamily": "var(--wp--preset--font-family--body)", "fontSize": "var(--wp--preset--font-size--medium)", "lineHeight": "1.65" },
+		"elements": {
+			"heading": { "typography": { "fontFamily": "var(--wp--preset--font-family--display)", "fontWeight": "700", "lineHeight": "1.05" } },
+			"h1": { "typography": { "fontSize": "var(--wp--preset--font-size--xx-large)" } },
+			"h2": { "typography": { "fontSize": "var(--wp--preset--font-size--x-large)" } },
+			"h3": { "typography": { "fontSize": "var(--wp--preset--font-size--large)" } },
+			"link": { "color": { "text": "var(--wp--preset--color--terracotta)" } },
+			"button": {
+				"color": { "background": "var(--wp--preset--color--terracotta)", "text": "var(--wp--preset--color--white)" },
+				"border": { "radius": "0px" },
+				"typography": { "fontWeight": "600" },
+				"spacing": { "padding": { "top": "0.85em", "bottom": "0.85em", "left": "1.4em", "right": "1.4em" } }
+			}
+		},
+		"spacing": { "blockGap": "1.25rem" }
+	}
+}

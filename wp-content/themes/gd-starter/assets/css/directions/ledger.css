@@ -1,0 +1,107 @@
+/* =========================================================================
+   DIRECTION: Ledger — editorial, hairlines, serif statements, one signal
+   colour. For professional services, B2B, consultancies.
+   fonts_url: https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Instrument+Sans:wght@400;500;600&display=swap
+   hero: hero-statement (build from the brief in DIRECTIONS.md)
+   ========================================================================= */
+:root{
+	--gd-ink:#17191c;
+	--gd-muted:#5a6470;
+	--gd-bg:#f4f3ee;
+	--gd-surface:#f4f3ee;
+	--gd-sand:#ebe9e2;
+	--gd-line:#c9c7bf;
+	--gd-accent:#7a1f2b;          /* the signal colour — swap per client */
+	--gd-accent-dark:#5c141f;
+	--gd-glacier:#5a6470;
+	--gd-pine:#17191c;
+	--gd-accent-soft:#e9d6d9;
+	--gd-radius:0;
+	--gd-radius-sm:0;
+	--gd-radius-btn:0;
+	--gd-input-radius:0;
+	--gd-border-w:1px;
+	--gd-shadow:none;
+	--gd-eyebrow-transform:none;
+	--gd-eyebrow-tracking:0;
+	--gd-eyebrow-size:.9rem;
+	--gd-font-display:"Instrument Serif",Georgia,serif;
+	--gd-font-body:"Instrument Sans",system-ui,sans-serif;
+	--gd-max:1180px;
+	--gd-hero-overlay:none;
+}
+body{font-size:1.05rem;line-height:1.6}
+h1,h2,h3,h4{font-weight:400;letter-spacing:-.01em;line-height:1.05}
+h1{font-size:clamp(2.8rem,7vw,6rem)}
+h2{font-size:clamp(2rem,4vw,3.4rem)}
+h3{font-family:var(--gd-font-body);font-weight:600;font-size:1.1rem;letter-spacing:0}
+.gd-eyebrow{font-family:var(--gd-font-body);font-weight:500;color:var(--gd-muted)}
+.gd-lede{font-family:var(--gd-font-display);font-size:clamp(1.3rem,2vw,1.7rem);color:var(--gd-ink);line-height:1.3}
+a{color:var(--gd-ink);text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:.2em}
+a:hover{color:var(--gd-accent)}
+.gd-btn,.wp-block-button__link{border-radius:0;border:1px solid var(--gd-ink);background:transparent;color:var(--gd-ink);font-weight:500;padding:.8em 1.4em}
+.gd-btn:hover,.wp-block-button__link:hover{transform:none;background:var(--gd-ink);color:var(--gd-bg)}
+.gd-btn--primary,.wp-block-button.is-style-fill .wp-block-button__link{background:var(--gd-ink);color:var(--gd-bg);border-color:var(--gd-ink)}
+.gd-btn--primary:hover,.wp-block-button.is-style-fill .wp-block-button__link:hover{background:var(--gd-accent);border-color:var(--gd-accent);color:#fff}
+.gd-header{background:var(--gd-bg);backdrop-filter:none;border-bottom:1px solid var(--gd-line)}
+.gd-nav__list a{font-weight:400;border-radius:0}
+.gd-nav__list a:hover,.gd-nav__list .current-menu-item>a{color:var(--gd-accent)}
+.gd-page-hero{background:transparent;border-bottom:1px solid var(--gd-line);padding:clamp(3rem,7vw,6rem) 0 clamp(2rem,4vw,3rem)}
+.gd-page-hero--image{color:var(--gd-ink);min-height:0;display:block;background:transparent}
+.gd-page-hero--image::before{display:none}
+.gd-page-hero--image .gd-lede{color:var(--gd-ink)}
+.gd-page-hero h1{max-width:16ch}
+.gd-section{padding:clamp(3rem,7vw,6rem) 0;border-top:1px solid var(--gd-line)}
+.gd-section--muted{background:transparent}
+.gd-reveal{opacity:1;transform:none;transition:none}
+.gd-steps{gap:0;border-top:1px solid var(--gd-line)}
+.gd-steps>li{background:transparent;border:0;border-bottom:1px solid var(--gd-line);border-radius:0;padding:28px 32px 28px 0}
+.gd-steps>li::before{font-size:1.1rem;font-family:var(--gd-font-body);font-weight:500;color:var(--gd-muted);opacity:1}
+.gd-steps>li+li{border-left:1px solid var(--gd-line);padding-left:32px}
+.gd-services,.gd-events,.gd-give,.gd-doors,.gd-posts__grid{gap:0;background:transparent;border:0;border-top:1px solid var(--gd-line)}
+.gd-services li,.gd-event,.gd-give li,.gd-post-card{border:0;border-bottom:1px solid var(--gd-line);border-radius:0;background:transparent}
+.gd-services li+li,.gd-event+.gd-event,.gd-give li+li{border-left:1px solid var(--gd-line)}
+.gd-services li:hover{transform:none;box-shadow:none}
+.gd-services img,.gd-event__media img,.gd-feature img,.entry-content img,.wp-block-image img{border-radius:0}
+.gd-doors a{border-radius:0;background:transparent;color:var(--gd-ink);border-right:1px solid var(--gd-line);padding:32px 32px 32px 0;min-height:0}
+.gd-doors a.gd-door--volunteer{background:transparent;padding-left:32px;border-right:0}
+.gd-doors a h3,.gd-doors a p,.gd-doors a .gd-eyebrow{color:var(--gd-ink)}
+.gd-doors a h3{font-family:var(--gd-font-display);font-weight:400;font-size:clamp(2rem,3.5vw,3rem)}
+.gd-doors a:hover{transform:none}
+.gd-doors a:hover h3{color:var(--gd-accent)}
+.gd-faq{gap:0;border-top:1px solid var(--gd-line)}
+.gd-faq details{border:0;border-bottom:1px solid var(--gd-line);border-radius:0;background:transparent;padding:0}
+.gd-faq summary{font-weight:500}
+.gd-faq summary::after{color:var(--gd-ink)}
+.gd-form input,.gd-form select,.gd-form textarea{border:0;border-bottom:1px solid var(--gd-ink);border-radius:0;background:transparent;padding-inline:0}
+.gd-form input:focus,.gd-form select:focus,.gd-form textarea:focus{box-shadow:none;border-bottom-color:var(--gd-accent)}
+.gd-form label{font-weight:500}
+.gd-form legend{font-family:var(--gd-font-display);font-size:1.6rem;font-weight:400}
+.gd-contact__card,.gd-event-single__card{border:0;border-top:1px solid var(--gd-ink);border-radius:0;padding:20px 0;background:transparent}
+.gd-partners img{border-radius:0;box-shadow:none;filter:grayscale(1);opacity:.85}
+.gd-partners .gd-chip{border-radius:0;background:transparent;border:1px solid var(--gd-line)}
+.gd-mission{background:transparent;color:var(--gd-ink);text-align:left;border-top:1px solid var(--gd-ink)}
+.entry-content .gd-mission blockquote,.gd-mission blockquote{color:var(--gd-ink);border:0;padding:0;font-weight:400;font-size:clamp(2rem,4.5vw,3.8rem);max-width:24ch}
+.gd-mission p{color:var(--gd-muted)}
+.gd-mission .gd-eyebrow{color:var(--gd-accent)}
+.gd-cta-band{background:var(--gd-ink);color:var(--gd-bg);border-top:0}
+.gd-cta-band h2{color:var(--gd-bg)}
+.gd-cta-band .gd-btn--light{background:var(--gd-bg);border-color:var(--gd-bg);color:var(--gd-ink)}
+.gd-footer{background:var(--gd-bg);color:var(--gd-ink);border-top:1px solid var(--gd-ink)}
+.gd-footer a,.gd-footer h3,.gd-footer .gd-header__wordmark,.gd-footer__tagline{color:var(--gd-ink)}
+.gd-footer .custom-logo{filter:none}
+.gd-footer__tagline{font-family:var(--gd-font-display);font-style:italic;font-weight:400}
+.gd-footer h3{text-transform:none;letter-spacing:0;font-family:var(--gd-font-body);font-weight:500}
+.gd-footer__contact .gd-i,.gd-social a{color:var(--gd-ink);border-color:var(--gd-line)}
+.gd-social a{border-radius:0}
+.gd-footer__bottom{border-top-color:var(--gd-line);color:var(--gd-muted)}
+.gd-footer__credit a{color:var(--gd-muted)}
+.gd-footer__donate{background:var(--gd-ink)!important;border-color:var(--gd-ink)!important;color:var(--gd-bg)!important}
+.gd-switch{gap:0;background:transparent;border:0;border-bottom:1px solid var(--gd-ink)}
+.gd-switch a{border:0;border-radius:0;background:transparent;padding:16px 0}
+.gd-switch a strong{font-family:var(--gd-font-display);font-weight:400;font-size:1.6rem}
+.gd-switch a.is-active{background:transparent;box-shadow:inset 0 -2px 0 var(--gd-accent)}
+.gd-switch a.is-active.gd-switch--volunteer{background:transparent;box-shadow:inset 0 -2px 0 var(--gd-ink)}
+.gd-form-success{border-radius:0;border:1px solid var(--gd-ink);background:transparent;color:var(--gd-ink)}
+.gd-form-success .gd-i{color:var(--gd-accent)}
+:focus-visible{outline:2px solid var(--gd-accent);outline-offset:3px}

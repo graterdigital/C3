@@ -1,0 +1,17 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "gd/events",
+	"title": "Events",
+	"category": "widgets",
+	"icon": "calendar-alt",
+	"description": "List upcoming or past events as cards.",
+	"textdomain": "gd-events",
+	"attributes": {
+		"scope": { "type": "string", "default": "upcoming" },
+		"limit": { "type": "number", "default": -1 },
+		"empty": { "type": "string", "default": "" }
+	},
+	"supports": { "html": false, "align": [ "wide", "full" ] },
+	"editorScript": "file:./editor.js"
+}

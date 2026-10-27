@@ -1,0 +1,15 @@
+/*
+Theme Name: C3 Collaborative
+Theme URI: https://graterdigital.com
+Author: Grater Digital
+Author URI: https://graterdigital.com
+Description: C3 · Creative Collaboration for Compassion — built on the Grater Digital starter theme. Classic theme, block-editor native, theme.json tokens, pattern-driven home page, native enquiry form, rating cards. Pairs with gd-reviews and gd-instagram.
+Version: 1.2.1
+Requires at least: 6.5
+Tested up to: 7.1
+Requires PHP: 8.0
+License: GNU General Public License v2 or later
+Text Domain: gd-starter
+*/
+
+/* Styles live in assets/css/main.css (enqueued by functions.php). */

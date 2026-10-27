@@ -1,0 +1,6 @@
+/* gd-events — minimal fallback styles when the theme doesn't style .gd-event* (gd-starter does). */
+.gd-events{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:20px}
+.gd-event{position:relative;border:1px solid var(--gd-line,#e5e5e5);border-radius:var(--gd-radius,12px);overflow:hidden;background:var(--gd-surface,#fff)}
+.gd-event__media img{width:100%;height:auto;display:block}
+.gd-event__meta{list-style:none;margin:0;padding:0}
+.gd-event__meta .gd-i{width:1em;height:1em}

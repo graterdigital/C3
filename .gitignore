@@ -1,0 +1,5 @@
+preview/
+*.zip
+node_modules/
+wp-content/themes/gd-starter/content/
+content/CHANGE-REQUESTS.md

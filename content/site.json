@@ -1,0 +1,84 @@
+{
+  "site": { "title": "C3 · Creative Collaboration for Compassion", "tagline": "Free quality-of-life repairs for neighbors in Marietta and metro Atlanta. Be the change, every day.", "timezone": "America/New_York" },
+  "logo": "logo.png",
+  "pages": [
+    { "slug": "home", "title": "Home", "pattern": "home", "canvas": true, "front": true },
+
+    { "slug": "what-we-do", "title": "What we do", "excerpt": "Free home, auto and emergency repairs, landscaping, junk removal and appliance repair — for neighbors who can’t afford them.", "hero": "services.jpg",
+      "blocks": [
+        { "p": "When things start falling apart it can be catastrophic for a family already at the margins. A broken window in January. A car that won’t start on a Monday. A water heater that quit. C3 exists to fix those things, free of charge, for the people who need it most — and to do it by bringing neighbors together." },
+        { "pattern": "services" },
+        { "h2": "What a “quality-of-life repair” means" },
+        { "p": "We’re not a remodeling service. We fix the things that make a home unsafe, unhealthy or hard to live in: broken windows and locks, outlets and switches that don’t work, leaking sinks, water heaters, window A/C units and refrigerators, minor auto repairs that keep you getting to work. If it’s hurting your daily life and you can’t afford to fix it, ask — inquiries are always welcome." },
+        { "h2": "Who does the work" },
+        { "p": "Volunteers. Tradespeople, handymen, business owners offering pro-bono or low-cost services, and plenty of people with no trade at all who want to learn one. C3’s founder brings more than 20 years in custom construction, woodworking and remodeling. Every project is also a chance to teach the next generation a skill." },
+        { "h2": "Priorities" },
+        { "list": [ "Emergencies first: no water, no heat, a home that can’t be secured.", "Families with children, elderly and disabled neighbors, people with no other way to get help.", "Projects we can group by area so volunteers can help several households in a weekend." ] },
+        { "html": "<div class=\"wp-block-buttons\"><div class=\"wp-block-button\"><a class=\"wp-block-button__link wp-element-button\" href=\"/get-involved/#request-help\">Request a repair</a></div><div class=\"wp-block-button is-style-outline\"><a class=\"wp-block-button__link wp-element-button\" href=\"/get-involved/#volunteer\">Volunteer</a></div></div>" }
+      ] },
+
+    { "slug": "about", "title": "About C3", "excerpt": "A community initiative, started with a conversation and a window repair, built on the belief that compassion is the bridge.", "hero": "about.jpg",
+      "blocks": [ { "pattern": "mission" }, { "pattern": "about-story" } ] },
+
+    { "slug": "get-involved", "title": "Get involved", "excerpt": "Need a repair, or have skills, tools or time to share? Start here.", "hero": "get-involved.jpg",
+      "blocks": [ { "pattern": "get-involved" } ] },
+
+    { "slug": "donate", "title": "Donate", "excerpt": "Money, materials or time — every bit of it becomes a repair for a neighbor.", "hero": "donate.jpg",
+      "blocks": [ { "pattern": "donate" } ] },
+
+    { "slug": "faq", "title": "FAQ", "excerpt": "How C3 works, who qualifies, and how the free repairs get paid for.", "hero": "faq.jpg",
+      "blocks": [ { "pattern": "faq" }, { "p": "Still have a question? Write to us on the contact page — or just ask on the request form." } ] },
+
+    { "slug": "contact", "title": "Contact", "excerpt": "Questions, partnerships, donations of materials — or just to say hello.", "hero": "contact.jpg",
+      "blocks": [ { "pattern": "contact" } ] },
+
+    { "slug": "updates", "title": "Updates", "excerpt": "News from the workbench: finished repairs, project days, and what’s next.", "posts_page": true }
+  ],
+  "events": [
+    {
+      "slug": "mutual-melodies",
+      "title": "Mutual Melodies — a musical mutual aid fundraiser",
+      "excerpt": "An afternoon of music and mutual aid at Red Light Café. We collected donations for several local organizations.",
+      "content": "Please join us for an afternoon of music and mutual aid! We’ll be facilitating the collection of donations — food, clothing, medicine and materials — for several local organizations, including quality-of-life repairs through C3.\n\nBring a friend, bring something to give, and stay for the music.",
+      "image": "event-mutual-melodies.jpg",
+      "start": "2026-05-30 13:00",
+      "end": "2026-05-30 16:00",
+      "venue": "Red Light Café",
+      "address": "553 Amsterdam Ave NE, Atlanta, GA 30306",
+      "cost": "Free · donations welcome",
+      "organizer": "50501 Georgia",
+      "link": "https://50501GA.org/Mutual-Melodies",
+      "link_label": "Event info"
+    },
+    {
+      "slug": "little-free-pantry-build",
+      "status": "draft",
+      "title": "Little Chicken Free Pantry build day",
+      "excerpt": "Help us build and paint the first Little Chicken free pantry — a 24/7 take-what-you-need, leave-what-you-can box for the neighborhood.",
+      "content": "We’re building a free pantry shaped like a little red chicken: a weatherproof box on a post where neighbors can take what they need and leave what they can, any time of day.\n\nNo carpentry experience needed. We’ll have the cuts made, the tools out, and coffee on. Kids welcome for the painting part. Bring a drill if you have one and a non-perishable item to stock the first shelf.\n\nDate and location are being finalized — RSVP below and we’ll send the details.",
+      "image": "pantry.png",
+      "start": "2026-11-21 09:00",
+      "end": "2026-11-21 13:00",
+      "venue": "Marietta, GA (location TBA)",
+      "address": "",
+      "cost": "Free",
+      "organizer": "",
+      "link": "/get-involved/#volunteer",
+      "link_label": "RSVP to volunteer"
+    }
+  ],
+  "posts": [
+    {
+      "slug": "our-first-repair",
+      "title": "Our first repair: a window, a pastor and a school district",
+      "excerpt": "C3 started as a conversation in early 2025. In October it became a window repair.",
+      "image": "hero.jpg",
+      "date": "2025-10-28 10:00",
+      "content": "C3 began in early 2025 as a conversation with a local pastor about the people in our community who fall through the cracks: not poor enough for a program, not well-off enough to call a contractor when something breaks.\n\nIn October we did our first project together — a window repair for a family who had been living with it broken for months. Materials were funded by a local school system. Labor was free. The whole thing took an afternoon.\n\nThat’s the model. Someone with the skills, someone with the materials, and a neighbor who needs both. Since then, so many people have offered to help — including with this website — that it was time to make it official.\n\nIf you need a repair, or you have a trade and a free Saturday, the Get involved page is where to start."
+    }
+  ],
+  "menus": {
+    "primary": [ ["What we do", "what-we-do", null], ["Events", "/events/", null], ["About", "about", null], ["FAQ", "faq", null], ["Updates", "updates", null], ["Contact", "contact", null], ["Donate", "donate", null] ],
+    "footer":  [ ["What we do", "what-we-do", null], ["Get involved", "get-involved", null], ["Events", "/events/", null], ["Donate", "donate", null], ["About", "about", null], ["FAQ", "faq", null], ["Updates", "updates", null], ["Contact", "contact", null] ]
+  }
+}
